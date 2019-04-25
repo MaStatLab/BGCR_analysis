@@ -2,6 +2,10 @@
 
 This folder contains the code for the simulation studies and the applications in Mao et, al (2018). The examples in the paper are generated under `R` version 3.4.3 and `Rcpp` version 0.12.13 (2017-09-24). Note that the working directory are default to be each subfolder when running code inside the subfolder.
 
+## Data
+The American Gut Project collects fecal, oral, skin, and other body site samples from thousands of participants. Lifestyle and dietary data about each participant is also collected, making it possible to study the associations between the human microbiome and various factors. The data is freely available to public through the link ftp://ftp.microbio.me/AmericanGut. The original American Gut sequences and metadata are available at The European Bioinformatics Institute under the accession ERP012803. Cleaned data including the OTU table, the phylogenetic tree and the covariate information about the participants are available at the data portal ftp://ftp.microbio.me/AmericanGut. Licensing information of the data can be found at https://github.com/biocore/American-Gut/blob/master/LICENSE. In our analysis, we use the July 29, 2016 version of the data.
+
+
 ## Data process
 The folder "./Data_process" contains the raw data and the file to process the raw data. The file "97_otus.tree" contains the phylogenetic tree on the 27774 OTUs in the study. The file "ag_fecal.txt" contains the covariate information on each sample. The file "ag_fecal_from_biom.txt" contains the OTU table on all the OTUs. Running the file "Data_process.R" create a dataset containing the OTU table on the top 100 OTUs and the corresponding phylogenetic tree used in the application section. This file can be simply modified to create dataset containing the top 50 and 75 OTUs used for the simulation studies. 
 
