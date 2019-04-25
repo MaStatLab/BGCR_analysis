@@ -1,4 +1,4 @@
-#Bayesian Graphical Compositional Regression --- Simulation and Application
+# Bayesian Graphical Compositional Regression --- Simulation and Application
 
 This folder contains the code for the simulation studies and the applications in Mao et, al (2018). The examples in the paper are generated under `R` version 3.4.3 and `Rcpp` version 0.12.13 (2017-09-24). Note that the working directory are default to be each subfolder when running code inside the subfolder.
 
